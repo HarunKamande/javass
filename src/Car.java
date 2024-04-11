@@ -33,10 +33,7 @@ public class Car{
     public void setLincence_provider(String lincence_provider){
         this.lincence_provider=lincence_provider;
     }
-    public static void main(String[] args){
 
-        System.out.println();
-    }
     public void present(){
         System.out.println("This is "+ this.getName());
         System.out.println("It was manufactured by "+ this.getManufucturer());
