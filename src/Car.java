@@ -37,5 +37,10 @@ public class Car{
 
         System.out.println();
     }
+    public void present(){
+        System.out.println("This is "+ this.getName());
+        System.out.println("It was manufactured by "+ this.getManufucturer());
+        System.out.println("License was provided by "+ this.getLincence_provider());
+    }
 
 }

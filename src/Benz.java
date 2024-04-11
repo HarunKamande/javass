@@ -14,5 +14,8 @@ public class Benz extends Car {
         System.out.println(b1.getName());
         System.out.println(b1.getManufucturer());
         System.out.println(b1.getLincence_provider());
+
+
+        b1.present();
     }
 }
